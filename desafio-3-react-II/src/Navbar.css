@@ -1,0 +1,34 @@
+
+.navbar {
+  background-color: #343a40; 
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.navbar-logo {
+  height: 50px;
+  margin-right: 20px; 
+  background-color: #343a40;
+  border-radius: 50%;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease; 
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #f44336; 
+  text-decoration: none;
+}

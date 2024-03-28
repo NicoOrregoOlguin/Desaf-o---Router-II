@@ -1,0 +1,24 @@
+.home {
+  text-align: center;
+  padding: 50px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative; 
+}
+
+.home h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px; 
+}
+
+.pokemon-background {
+  background-image: url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/pokemon-logo-design-template-eb355bb15c4344c1e0695a39ecadae50_screen.jpg?ts=1697729436');
+  background-size: cover;
+  background-position: center;
+  width: 100%; 
+  height: 600px; 
+  border-radius: 0 0 5px 5px;
+}

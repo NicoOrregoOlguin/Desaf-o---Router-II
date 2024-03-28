@@ -1,0 +1,21 @@
+/* PokemonDetail.css */
+.pokemon-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.pokemon-detail-container img {
+  width: 150px; 
+  margin-right: 20px;
+}
+
+.pokemon-stats {
+  text-align: left;
+}
+
+.pokemon-stats h3 {
+  text-transform: capitalize;
+}
+

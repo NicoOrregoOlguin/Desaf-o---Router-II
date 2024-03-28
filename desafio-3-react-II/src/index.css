@@ -1,0 +1,21 @@
+
+.navbar {
+  background-color: #343a40; 
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.nav-link {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease; 
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #f44336;
+  text-decoration: none;
+}
